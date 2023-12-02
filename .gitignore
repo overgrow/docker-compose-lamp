@@ -6,3 +6,6 @@
 /www/**
 .DS_Store
 /buildtest
+
+/project_original_sources
+/shared_php_libs

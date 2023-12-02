@@ -35,6 +35,7 @@ RUN docker-php-ext-install curl \
     && docker-php-ext-install mysqli \
     && docker-php-ext-install zip \
     && docker-php-ext-install intl \
+    && docker-php-ext-install gettext \
     && docker-php-ext-install mbstring
 
 RUN docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ \
